@@ -65,7 +65,7 @@ function App() {
   // useEffect(() => {}, [good, bad, neutral]);
   const rating = (good / (good + bad + neutral)) * 100;
   const total = good + bad + neutral;
-  const options = ['good', 'bad', 'neutral'];
+  const options = ["good", "neutral", "bad"];
 
   return (
     <Fragment>
